@@ -8,30 +8,27 @@ import './Formulario.css'
 import { useState } from 'react'
 
 //componente formulario
-const Formulario = (props) => {
+const Formulario = ({aoCadastrar, times}) => {
 
     const [nome,setNome]= useState('')
     const [cargo,setCargo]=useState('')
     const [imagem,setImagem]=useState('')
     const [time, setTime]=useState('')
 
-    const aoSalvar = (evento) => {
+    const aoSubmeter = (evento) => {
         evento.preventDefault()
-        props.aoColaboradorCadastrado({
+        console.log('Form enviado', nome, cargo, imagem, time)
+        aoCadastrar({
             nome,
             cargo,
             imagem,
             time
         })
-        setNome('')
-        setCargo('')
-        setImagem('')
-        setTime('')
     }
 
     return (
-        <section className="formulario">
-            <form onSubmit={aoSalvar}>
+        <section className="formulario-container">
+            <form  className="formulario" onSubmit={aoSubmeter}>
                 <h2>Preencha os dados para criar o card do colaborador</h2>
                 <CampoTexto 
                     obrigatorio={true} 
@@ -52,17 +49,16 @@ const Formulario = (props) => {
                     placeholder="Digite o endereço da imagem" 
                     valor={imagem}
                     aoAlterado={valor=>setImagem(valor)}
-                />
+                />                
                 <ListaSuspensa 
-                    obrigatorio={true} 
-                    label="Time" 
-                    itens={props.times}
+                    obrigatorio={true}
+                    label='Times'
+                    items={times} 
                     valor={time}
-                    aoAlterado={valor=>setTime(valor)}
-                />
-                <Botao>
-                    Criar Card
-                </Botao>
+                    aoAlterado={valor => setTime(valor)}/>
+                <Botao texto='Criar Card'/>
+                
+                
             </form>
         </section>
     )
