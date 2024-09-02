@@ -11,36 +11,43 @@ function App() {
     {
       nome: 'programação',
       id: uuidv4(),
+      
       cor: '#D9F7E9'
     },
     {
       nome: 'Front-End',
       id: uuidv4(),
+      
       cor: '#E8F8FF'
     },
     {
       nome: 'Data Science',
       id: uuidv4(),
+      
       cor: '#F0F8E2'
     },
     {
       nome: 'Devops',
       id: uuidv4(),
+      
       cor: '#FDE7E8'
     },
     {
       nome: 'UX e Design',
       id: uuidv4(),
+      
       cor: '#FAE9F5'
     },
     {
       nome: 'Mobile',
       id: uuidv4(),
+      
       cor: '#FFF5D9'
     },
     {
       nome: 'Inovação e Gestão',
       id: uuidv4(),
+      
       cor: '#FFEEDF'
     }
   ])
@@ -48,6 +55,7 @@ function App() {
   const inicial = [
     {
       nome: 'JULIANA AMOASEI',
+      favorito: false,
       cargo: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       id: uuidv4(),
@@ -55,6 +63,7 @@ function App() {
     },
     {
       nome: 'DANIEL ARTINE',
+      favorito: false,
       cargo: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       id: uuidv4(),
@@ -62,6 +71,7 @@ function App() {
     },
     {
       nome: 'GUILHERME LIMA',
+      favorito: false,
       cargo: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       id: uuidv4(),
@@ -69,6 +79,7 @@ function App() {
     },
     {
       nome: 'PAULO SILVEIRA',
+      favorito: false,
       cargo: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       id: uuidv4(),
@@ -76,6 +87,7 @@ function App() {
     },
     {
       nome: 'JULIANA AMOASEI',
+      favorito: false,
       cargo: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       id: uuidv4(),
@@ -83,6 +95,7 @@ function App() {
     },
     {
       nome: 'DANIEL ARTINE',
+      favorito: false,
       cargo: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       id: uuidv4(),
@@ -90,6 +103,7 @@ function App() {
     },
     {
       nome: 'GUILHERME LIMA',
+      favorito: false,
       cargo: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       id: uuidv4(),
@@ -97,6 +111,7 @@ function App() {
     },
     {
       nome: 'PAULO SILVEIRA',
+      favorito: false,
       cargo: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       id: uuidv4(),
@@ -104,6 +119,7 @@ function App() {
     },
     {
       nome: 'JULIANA AMOASEI',
+      favorito: false,
       cargo: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       id: uuidv4(),
@@ -111,6 +127,7 @@ function App() {
     },
     {
       nome: 'DANIEL ARTINE',
+      favorito: false,
       cargo: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       id: uuidv4(),
@@ -118,6 +135,7 @@ function App() {
     },
     {
       nome: 'GUILHERME LIMA',
+      favorito: false,
       cargo: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       id: uuidv4(),
@@ -125,6 +143,7 @@ function App() {
     },
     {
       nome: 'PAULO SILVEIRA',
+      favorito: false,
       cargo: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       id: uuidv4(),
@@ -132,6 +151,7 @@ function App() {
     },
     {
       nome: 'JULIANA AMOASEI',
+      favorito: false,
       cargo: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       id: uuidv4(),
@@ -139,6 +159,7 @@ function App() {
     },
     {
       nome: 'DANIEL ARTINE',
+      favorito: false,
       cargo: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       id: uuidv4(),
@@ -146,6 +167,7 @@ function App() {
     },
     {
       nome: 'GUILHERME LIMA',
+      favorito: false,
       cargo: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       id: uuidv4(),
@@ -153,6 +175,7 @@ function App() {
     },
     {
       nome: 'PAULO SILVEIRA',
+      favorito: false,
       cargo: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       id: uuidv4(),
@@ -160,6 +183,7 @@ function App() {
     },
     {
       nome: 'JULIANA AMOASEI',
+      favorito: false,
       cargo: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       id: uuidv4(),
@@ -167,6 +191,7 @@ function App() {
     },
     {
       nome: 'DANIEL ARTINE',
+      favorito: false,
       cargo: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       id: uuidv4(),
@@ -174,6 +199,7 @@ function App() {
     },
     {
       nome: 'GUILHERME LIMA',
+      favorito: false,
       cargo: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       id: uuidv4(),
@@ -181,6 +207,7 @@ function App() {
     },
     {
       nome: 'PAULO SILVEIRA',
+      favorito: false,
       cargo: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       id: uuidv4(),
@@ -188,6 +215,7 @@ function App() {
     },
     {
       nome: 'JULIANA AMOASEI',
+      favorito: false,
       cargo: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
       id: uuidv4(),
@@ -195,6 +223,7 @@ function App() {
     },
     {
       nome: 'DANIEL ARTINE',
+      favorito: false,
       cargo: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
       id: uuidv4(),
@@ -202,6 +231,7 @@ function App() {
     },
     {
       nome: 'GUILHERME LIMA',
+      favorito: false,
       cargo: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
       id: uuidv4(),
@@ -209,6 +239,7 @@ function App() {
     },
     {
       nome: 'PAULO SILVEIRA',
+      favorito: false,
       cargo: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
       id: uuidv4(),
@@ -228,7 +259,7 @@ function App() {
   }
 
   function deletarColaborador(id){
-    setColaboradores(colaboradores.filter(colaborador=>colaborador.id!=id))
+    setColaboradores(colaboradores.filter(colaborador=>colaborador.id!==id))
   }
 
   function cadastrarTime(novoTime){
@@ -239,6 +270,12 @@ function App() {
     setColaboradores([...colaboradores,colaborador])
   }
 
+  function resolverFavorito(id){
+      setColaboradores(colaboradores.map(colaborador =>{
+        if(colaborador.id === id) colaborador.favorito = !colaborador.favorito;
+        return colaborador;
+      }))
+  }
   return (
     <div className="App">
       <Banner/>  
@@ -257,6 +294,7 @@ function App() {
             colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)} 
             aoDeletar={deletarColaborador}
             mudarCor={mudarCorTime}
+            aoFavoritar={resolverFavorito}
           />
         )}
       </section>
