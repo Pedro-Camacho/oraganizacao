@@ -8,6 +8,7 @@ const Time = ({time, colaboradores, aoDeletar,mudarCor, aoFavoritar}) =>{
             <input value={time.cor} type="color" className='input-color' onChange={evento=>mudarCor(evento.target.value, time.id)}></input>
             <h3 style={{borderColor: time.cor}}>{time.nome}</h3>
             <div className='colaboradores'>
+
                 {colaboradores.map((colaborador, indice) => {
                     
                     return (
@@ -20,6 +21,7 @@ const Time = ({time, colaboradores, aoDeletar,mudarCor, aoFavoritar}) =>{
                         />
                     );
                 })}
+
             </div>            
         </section>
     )
